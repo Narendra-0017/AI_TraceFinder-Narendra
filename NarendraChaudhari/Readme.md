@@ -18,17 +18,20 @@ I have included my code, dataset links, processed outputs, and results milestone
 - [TraceFinder Notebook](AI_TraceFinder.ipynb) – main notebook with preprocessing and residual generation steps.
 
 ---
+### Milestone 1: Dataset Collection & Preprocessing
 
 ## 📊 Datasets
 
-### 🔹 Original Dataset
+## 🔹 Original Dataset
 - [Original Dataset (Google Drive)](https://drive.google.com/your-dataset-link](https://drive.google.com/drive/folders/1G7J7VHI2ronwO_eWva9Ym0-Td9kD0PCs?usp=sharing )
 
-### 🔹 Processed Data
+## 🔹 Processed Data
 - [Processed PNGs (Google Drive)](https://drive.google.com/your-processed-png-link](https://drive.google.com/drive/folders/16weXUjpOZvtnHKMnkzXl8f20egU4xGl9?usp=sharing )
 - [metadata.csv (Google Drive)](https://drive.google.com/your-metadata-link](https://drive.google.com/file/d/1o0iglP8QRmqYilpYrD2kngO_48PNhu_m/view?usp=sharing )
 
-### 🔹 PRNU Residuals
+### Milestone 2: Feature Engineering & Baseline Modeling
+
+## 🔹 PRNU Residuals
 - [PRNU_Residual Folder (Google Drive)](https://drive.google.com/drive/folders/1HgqjuDP2mwN4ieY6SXS7Ebvh4wrQZi4Q?usp=sharing)
 
 ---
