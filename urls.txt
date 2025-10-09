@@ -1,0 +1,7 @@
+# Put direct-download URLs here, one per line.
+# Examples:
+# - Dropbox link: https://www.dropbox.com/s/FILEID/filename.jpg?dl=1
+# - GitHub raw: https://raw.githubusercontent.com/owner/repo/branch/path/to/file.jpg
+# - Google Drive direct: https://drive.google.com/uc?export=download&id=FILEID
+# Replace the following with actual direct links to a few sample images:
+
