@@ -5,10 +5,6 @@
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ai--tracefinder.streamlit.app/)
 
 **Check out the live demo:** **[https://ai--tracefinder.streamlit.app/](https://ai--tracefinder.streamlit.app/)**
-
-![TraceFinder Screenshot](https://raw.githubusercontent.com/your-username/your-repo-name/main/screenshot.png)
-*(**Note**: To make the image above work, please add a screenshot of your app to your repository and update this link!)*
-
 ***
 
 ## 🚀 Key Features
@@ -36,8 +32,8 @@ The application follows a sophisticated machine learning pipeline to ensure accu
 
 The core assets for this project, including the dataset, extracted features, and trained models, can be accessed below.
 
-* **Dataset & Metadata**: [**Link to your `TraceFinder` Google Drive Folder**](https://drive.google.com/drive/folders/1NLErgKgCGQwES5D8L4OtnF9YdcylRlDZ?usp=sharing)
-* **PRNU Wavelets & Trained Models**: [**Link to your `PRNU_Residual_Wavelet` Google Drive Folder**](https://drive.google.com/drive/folders/1fFXaTnwRhX_y30Vk-Kmd3wZ93E930JSF?usp=sharing)
+* [**Dataset & Metadata**: ](https://drive.google.com/drive/folders/1NLErgKgCGQwES5D8L4OtnF9YdcylRlDZ?usp=sharing)
+* [**PRNU Wavelets & Trained Models**:](https://drive.google.com/drive/folders/1fFXaTnwRhX_y30Vk-Kmd3wZ93E930JSF?usp=sharing)
 
 ***
 
