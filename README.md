@@ -36,8 +36,8 @@ The application follows a sophisticated machine learning pipeline to ensure accu
 
 The core assets for this project, including the dataset, extracted features, and trained models, can be accessed below.
 
-* **Dataset & Metadata**: [**Link to your `TraceFinder` Google Drive Folder**]([your-link-here](https://drive.google.com/drive/folders/1NLErgKgCGQwES5D8L4OtnF9YdcylRlDZ?usp=sharing))
-* **PRNU Wavelets & Trained Models**: [**Link to your `PRNU_Residual_Wavelet` Google Drive Folder**]([your-link-here](https://drive.google.com/drive/folders/1fFXaTnwRhX_y30Vk-Kmd3wZ93E930JSF?usp=sharing))
+* **Dataset & Metadata**: [**Link to your `TraceFinder` Google Drive Folder**](https://drive.google.com/drive/folders/1NLErgKgCGQwES5D8L4OtnF9YdcylRlDZ?usp=sharing)
+* **PRNU Wavelets & Trained Models**: [**Link to your `PRNU_Residual_Wavelet` Google Drive Folder**](https://drive.google.com/drive/folders/1fFXaTnwRhX_y30Vk-Kmd3wZ93E930JSF?usp=sharing)
 
 ***
 
@@ -47,3 +47,73 @@ The project is organized into several key directories that handle data, features
 
 ### `TraceFinder/`
 This directory contains the primary dataset and processed files.
+├── checkpoints/         # Saved model weights from training sessions
+├── features/            # Stored feature vectors extracted from images
+├── processed_png/       # Preprocessed images ready for analysis
+└── metadata.csv         # Maps image files to their correct scanner labels
+
+### `PRNU_Residual_Wavelet.../`
+This directory contains the feature engineering artifacts and final trained models.
+├── db1/                 # Raw or intermediate dataset source 1
+├── db2/                 # Raw or intermediate dataset source 2
+├── haar/                # Wavelet features using Haar transform
+├── sym2/                # Wavelet features using Symlet 2 transform
+└── trained_models/      # The final, serialized machine learning models
+
+***
+
+## 🎯 Use Cases
+
+* **Digital Forensics**: Helps investigators determine which scanner was used to forge or duplicate legal documents.
+* **Document Authentication**: Verifies the source of scanned images to detect tampering or fraudulent claims.
+* **Legal Evidence Verification**: Ensures that scanned copies submitted in court originated from known and approved devices.
+
+***
+
+## 🛠️ Tech Stack
+
+* **Backend & ML**: Python
+* **Web Framework**: Streamlit
+* **Machine Learning**: Scikit-learn (SVM, Random Forest), TensorFlow/Keras (CNN)
+* **Image Processing**: OpenCV, Pillow, PyWavelets
+* **Data Handling**: NumPy, Pandas
+* **Explainability**: SHAP, Grad-CAM
+
+***
+
+## 📦 Getting Started Locally
+
+To run this project on your local machine, follow these steps:
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+    cd your-repo-name
+    ```
+
+2.  **Create and activate a virtual environment:**
+    ```bash
+    python -m venv venv
+    # On Windows
+    venv\Scripts\activate
+    # On macOS/Linux
+    source venv/bin/activate
+    ```
+
+3.  **Install the required dependencies:**
+    *(Create a `requirements.txt` file by running `pip freeze > requirements.txt` in your project's terminal).*
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4.  **Run the Streamlit app:**
+    ```bash
+    streamlit run app.py
+    ```
+    The application should now be running in your web browser!
+
+***
+
+## 📜 License
+
+This project is licensed under the MIT License. See the `LICENSE` file for more details.
