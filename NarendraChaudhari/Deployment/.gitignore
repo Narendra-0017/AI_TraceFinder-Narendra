@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+.vscode/
+.idea/
+__pypackages__/
+.ipynb_checkpoints
+.DS_Store
+*.pth
+haar_hybridcnn.pth
